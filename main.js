@@ -48,7 +48,7 @@
     const loader = new GLTFLoader();
     let model;
     loader.load(
-      models/tornado.blend
+      models/R2YI1K.glb
       function (gltf) {
         model = gltf.scene;
         document.getElementById('loading').style.display = 'none';
