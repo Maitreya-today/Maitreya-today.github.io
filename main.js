@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 </head>
 <body>
   <div id="loading">Loading AR experience...</div>
-  <script type="module">
+  <script type="module">*/
     // Import required modules from Three.js
     import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.module.js';
     import { ARButton } from 'https://cdn.jsdelivr.net/npm/three@0.153.0/examples/jsm/webxr/ARButton.js';
@@ -88,6 +88,7 @@
     }
 
     animate();
-  </script>
+/*  </script>
 </body>
 </html>
+*/
