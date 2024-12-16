@@ -23,7 +23,7 @@ scene.add(light);
 const loader = new GLTFLoader();
 let model;
 loader.load(
-  'path/to/your/model.glb', // Replace with your custom model path
+  models/tornado.blend
   function (gltf) {
     model = gltf.scene;
   },
