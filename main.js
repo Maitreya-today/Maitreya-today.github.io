@@ -48,7 +48,7 @@
     const loader = new GLTFLoader();
     let model;
     loader.load(
-      'models/R2YI1K.glb'
+      'models/R2YI1K.glb', // Fix the path to the model
       function (gltf) {
         model = gltf.scene;
         document.getElementById('loading').style.display = 'none';
@@ -82,7 +82,7 @@
 
     function animate() {
       renderer.setAnimationLoop(() => {
-        // Update reticle position
+        // Update reticle position (for example, track ray intersection)
         renderer.render(scene, camera);
       });
     }
